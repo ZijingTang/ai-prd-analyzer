@@ -1,0 +1,22 @@
+{
+  "change_summary": {
+    "name": "Change Summary",
+    "description": "Extract and summarize key functional changes such as feature additions, logic updates, or API changes.",
+    "prompt": "You are a senior product analyst. Please analyze the following PRD or TD document. Your task is to extract and summarize the key functional changes, such as feature additions, removals, logic updates, UI/UX changes, data validations, or API field changes. Present your answer in a concise table with the format:\n| Module | Change Description |"
+  },
+  "risk_attention": {
+    "name": "Risk & Attention",
+    "description": "Identify potential risks and attention points related to the document, such as cross-team dependencies or validations.",
+    "prompt": "Based on the document provided, identify potential risks, implementation caveats, and attention points that might affect development, testing, or release. Focus on cross-team dependencies, validations, edge cases, and any assumptions that may break. Use the following table format:\n| Area | Risk/Attention Point | Description |"
+  },
+  "innovation_highlights": {
+    "name": "Innovation Highlights",
+    "description": "Summarize any innovative features or design decisions that add value or uniqueness to the product.",
+    "prompt": "Please extract and summarize any innovative features, design decisions, or user experience enhancements described in the following product documentation. Explain why they are valuable or unique.\nOutput format:\n| Highlight | Description of Value |"
+  },
+  "test_case_generator": {
+    "name": "Test Case Generator",
+    "description": "Generate priority test scenarios including happy paths and edge cases.",
+    "prompt": "Please generate priority test scenarios based on the key changes and core features described in the following documentation. Include both happy path and edge cases. Use the following format:\n| Scenario | Test Point | Type (Happy/Edge) |"
+  }
+}
